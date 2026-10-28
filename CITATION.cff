@@ -4,7 +4,16 @@ title: "Code for: Thermodynamic curvature of relativistic ideal gases: flatness,
 type: software
 version: 1.0.0
 license: MIT
-# Add the Zenodo DOI here (doi: 10.5281/zenodo.XXXXXXXX) once the release is archived.
+date-released: "2026-10-28"
+doi: 10.5281/zenodo.23746821
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23746821
+    description: "Concept DOI (resolves to the latest version)."
+  - type: doi
+    value: 10.5281/zenodo.23746822
+    description: "DOI of version v1.0.0."
+repository-code: "https://github.com/NewArtY/thermodynamic-curvature"
 authors:
   - family-names: Akintsov
     given-names: N. S.

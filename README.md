@@ -56,7 +56,7 @@ Additional checks: `pion_numbers.py` (pion-gas numbers of Sec. 4.3) and `mixture
 
 ## Citation
 
-Please cite the article and this archived release (see `CITATION.cff`; the Zenodo DOI is added on release).
+Please cite the article and this archived release: Zenodo, [10.5281/zenodo.23746821](https://doi.org/10.5281/zenodo.23746821) (concept DOI; v1.0.0 is [10.5281/zenodo.23746822](https://doi.org/10.5281/zenodo.23746822)). See also `CITATION.cff`.
 
 ## Licence
 
