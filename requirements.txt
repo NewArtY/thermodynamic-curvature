@@ -1,0 +1,6 @@
+# Tested with Python 3.13.3 and the versions below.
+numpy==2.2.4
+scipy==1.17.1
+mpmath==1.3.0
+sympy==1.13.1
+matplotlib==3.10.1

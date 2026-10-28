@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this archived code release."
+title: "Code for: Thermodynamic curvature of relativistic ideal gases: flatness, the second virial coefficient and deformed statistics"
+type: software
+version: 1.0.0
+license: MIT
+# Add the Zenodo DOI here (doi: 10.5281/zenodo.XXXXXXXX) once the release is archived.
+authors:
+  - family-names: Akintsov
+    given-names: N. S.
+    orcid: "https://orcid.org/0000-0002-1040-1292"
+  - family-names: Nevecheria
+    given-names: A. P.
+    orcid: "https://orcid.org/0000-0001-6736-4691"
+  - family-names: Andreev
+    given-names: S. N.
+    orcid: "https://orcid.org/0000-0003-3588-2894"
+  - family-names: Qin
+    given-names: Qing-Hua
+    orcid: "https://orcid.org/0000-0003-0948-784X"
+keywords:
+  - thermodynamic geometry
+  - Ruppeiner curvature
+  - relativistic ideal gas
+  - second virial coefficient
+  - Tsallis statistics
+  - Kaniadakis statistics

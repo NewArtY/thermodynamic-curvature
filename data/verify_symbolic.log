@@ -1,0 +1,10 @@
+S1 d_i d_j (X phi) = X(phi_ij) + 2 alpha phi_ij  for generic phi: True
+S2 bare Tsallis: n = (y*(q - 1) + 1)**(-1/(q - 1)) ; Euler residual: 0
+S2 escort Tsallis: n = (y*(q - 1) + 1)**(-q/(q - 1)) ; Euler residual: 0
+S3 separable phi = cosh(beta)+exp(gamma): R = 0 ; affine homotheties: [{bb1: 0, bb2: 0, cc: 0, l0: 0, l1: 0, l2: 0, lam: 0}]
+S3 two-level ideal gas with arbitrary F: R = 0
+S4 coefficient z^3 of det (classical part) = 0 ; z^0 of det, z^1: 0 0 ; R0 - claim = 0
+S4 virial form: claim(B=-B2 A^2) - [B2 + L'''/L''^2 B2' - B2''/(2L'')] = 0
+S5 Kaniadakis: kappa^0 det = 0 ; R_kappa2 - [-beta^2 H3/(4 z H2^2)] = 0 ; d/dgamma (R_kappa2 * z) = 0
+S6 pure power (eps=0): R = 0
+S6 first order: R1 = (C2/C1^2) beta^3 G^(e2-2e1) * K(e1,e2),  K = -2*(e1 - e2)**2*(e1 - e2 - 1)/(e1*(e1 - 4)**2)

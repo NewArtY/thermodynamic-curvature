@@ -1,0 +1,61 @@
+{
+  "T1_sphere": {
+    "R": "2",
+    "K": "1"
+  },
+  "T2_hyperbolic": {
+    "R": "-2"
+  },
+  "T3_generic_hessian": {
+    "R_christoffel_minus_R_det": "0",
+    "2K_brioschi_minus_R_det": "0"
+  },
+  "T4_gaussian_family": {
+    "R_christoffel": "-1",
+    "R_det": "-1"
+  },
+  "T5_NR_quantum_gas": [
+    {
+      "a": 1,
+      "beta": 1.0,
+      "gamma": 0.5,
+      "R_christoffel": -0.19744534301976185,
+      "R_det": -0.19744534301976185
+    },
+    {
+      "a": 1,
+      "beta": 0.7,
+      "gamma": 2.0,
+      "R_christoffel": -0.12540912405519636,
+      "R_det": -0.1254091240551957
+    },
+    {
+      "a": 1,
+      "beta": 2.0,
+      "gamma": 0.05,
+      "R_christoffel": -0.5352858819518583,
+      "R_det": -0.5352858819518583
+    },
+    {
+      "a": -1,
+      "beta": 1.0,
+      "gamma": 0.5,
+      "R_christoffel": 0.2867126551821229,
+      "R_det": 0.2867126551821229
+    },
+    {
+      "a": -1,
+      "beta": 0.7,
+      "gamma": 2.0,
+      "R_christoffel": 0.13431835414921062,
+      "R_det": 0.13431835414920912
+    },
+    {
+      "a": -1,
+      "beta": 2.0,
+      "gamma": 0.05,
+      "R_christoffel": 1.72394176116677,
+      "R_det": 1.72394176116677
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+
+====================================================================================================
+C5  existence: tail integrals with a momentum cut-off Lambda (D = 3, zeta = 1, alpha = 1)
+====================================================================================================
+Kaniadakis   kappa=0.2    phi(L) E(L) g_bb(L) at L=1e2,1e4,1e6,1e8:
+      L=1e+02   phi=5.90113069e+00   E=1.82451305e+01   g_bb=5.68390883e+01
+      L=1e+04   phi=6.14264432e+00   E=1.92108467e+01   g_bb=6.16170931e+01
+      L=1e+06   phi=6.14506131e+00   E=1.92205147e+01   g_bb=6.16654281e+01
+      L=1e+08   phi=6.14508548e+00   E=1.92206114e+01   g_bb=6.16659115e+01
+Kaniadakis   kappa=0.25   phi(L) E(L) g_bb(L) at L=1e2,1e4,1e6,1e8:
+      L=1e+02   phi=1.78834875e+01   E=4.92465937e+01   g_bb=1.57802458e+02
+      L=1e+04   phi=4.24414371e+01   E=1.22915329e+02   g_bb=4.51188943e+02
+      L=1e+06   phi=6.70023445e+01   E=1.96598050e+02   g_bb=7.45907155e+02
+      L=1e+08   phi=9.15632521e+01   E=2.70280773e+02   g_bb=1.04063792e+03
+Kaniadakis   kappa=0.3    phi(L) E(L) g_bb(L) at L=1e2,1e4,1e6,1e8:
+      L=1e+02   phi=6.82912784e+01   E=1.55363165e+02   g_bb=4.63005787e+02
+      L=1e+04   phi=1.63010593e+03   E=3.79955954e+03   g_bb=1.25916424e+04
+      L=1e+06   phi=3.52788851e+04   E=8.23133774e+04   g_bb=2.74300371e+05
+      L=1e+08   phi=7.60219857e+05   E=1.77384231e+06   g_bb=5.91272929e+06
+Tsallis      q=1.2    phi(L) E(L) g_bb(L) at L=1e2,1e4,1e6,1e8:
+      L=1e+02   phi=4.40886148e+01   E=1.27470341e+02   g_bb=4.31421418e+02
+      L=1e+04   phi=5.11019258e+01   E=1.54859312e+02   g_bb=5.63866953e+02
+      L=1e+06   phi=5.11791915e+01   E=1.55168297e+02   g_bb=5.65411331e+02
+      L=1e+08   phi=5.11799650e+01   E=1.55171391e+02   g_bb=5.65426799e+02
+Tsallis      q=1.25   phi(L) E(L) g_bb(L) at L=1e2,1e4,1e6,1e8:
+      L=1e+02   phi=1.55339439e+02   E=3.92357675e+02   g_bb=1.25022417e+03
+      L=1e+04   phi=5.38562736e+02   E=1.53265816e+03   g_bb=5.75633305e+03
+      L=1e+06   phi=9.31435923e+02   E=2.71117643e+03   g_bb=1.04697985e+04
+      L=1e+08   phi=1.32440943e+03   E=3.89009594e+03   g_bb=1.51854705e+04
+Tsallis      q=1.3    phi(L) E(L) g_bb(L) at L=1e2,1e4,1e6,1e8:
+      L=1e+02   phi=5.25105038e+02   E=1.10516178e+03   g_bb=3.16528403e+03
+      L=1e+04   phi=1.61754951e+04   E=3.75323976e+04   g_bb=1.24112734e+05
+      L=1e+06   phi=3.55313793e+05   E=8.28834952e+05   g_bb=2.76168051e+06
+      L=1e+08   phi=7.66225657e+06   E=1.78783638e+07   g_bb=5.95934201e+07
+
+====================================================================================================
+C6  classical Tsallis: plain determinant / largest term (50 digits)
+====================================================================================================
+points: 96 ; max |det|/max|term| = 1.08e-60  (2s)
+
+====================================================================================================
+N4  O(kappa^2): R_kappa^cl * n / kappa^2  ->  -Y(zeta)   (n = ztilde A_kin)
+====================================================================================================
+zeta=0.1: Y(zeta)=1.99685838306358
+    kappa=0.0001  alpha=0.5   R n/kappa^2 = -1.99685786065   (rel. dev. from -Y: -2.62e-07)
+    kappa=0.0001  alpha=2     R n/kappa^2 = -1.99685721104   (rel. dev. from -Y: -5.87e-07)
+    kappa=0.0001  alpha=5     R n/kappa^2 = -1.99685477935   (rel. dev. from -Y: -1.80e-06)
+    kappa=0.001   alpha=0.5   R n/kappa^2 = -1.99680614218   (rel. dev. from -Y: -2.62e-05)
+    kappa=0.001   alpha=2     R n/kappa^2 = -1.9967411839   (rel. dev. from -Y: -5.87e-05)
+    kappa=0.001   alpha=5     R n/kappa^2 = -1.9964980464   (rel. dev. from -Y: -1.80e-04)
+    kappa=0.01    alpha=0.5   R n/kappa^2 = -1.99163629698   (rel. dev. from -Y: -2.62e-03)
+    kappa=0.01    alpha=2     R n/kappa^2 = -1.98516623806   (rel. dev. from -Y: -5.86e-03)
+    kappa=0.01    alpha=5     R n/kappa^2 = -1.96116888612   (rel. dev. from -Y: -1.79e-02)
+    kappa=0.03    alpha=0.5   R n/kappa^2 = -1.95000637735   (rel. dev. from -Y: -2.35e-02)
+    kappa=0.03    alpha=2     R n/kappa^2 = -1.8936270642   (rel. dev. from -Y: -5.17e-02)
+    kappa=0.03    alpha=5     R n/kappa^2 = -1.69918771752   (rel. dev. from -Y: -1.49e-01)
+zeta=1: Y(zeta)=1.87726776308653
+    kappa=0.0001  alpha=0.5   R n/kappa^2 = -1.87726742673   (rel. dev. from -Y: -1.79e-07)
+    kappa=0.0001  alpha=2     R n/kappa^2 = -1.87726691979   (rel. dev. from -Y: -4.49e-07)
+    kappa=0.0001  alpha=5     R n/kappa^2 = -1.8772649177   (rel. dev. from -Y: -1.52e-06)
+    kappa=0.001   alpha=0.5   R n/kappa^2 = -1.87723412745   (rel. dev. from -Y: -1.79e-05)
+    kappa=0.001   alpha=2     R n/kappa^2 = -1.8771834344   (rel. dev. from -Y: -4.49e-05)
+    kappa=0.001   alpha=5     R n/kappa^2 = -1.87698324738   (rel. dev. from -Y: -1.52e-04)
+    kappa=0.01    alpha=0.5   R n/kappa^2 = -1.87390399789   (rel. dev. from -Y: -1.79e-03)
+    kappa=0.01    alpha=2     R n/kappa^2 = -1.86884870563   (rel. dev. from -Y: -4.48e-03)
+    kappa=0.01    alpha=5     R n/kappa^2 = -1.84904423372   (rel. dev. from -Y: -1.50e-02)
+    kappa=0.03    alpha=0.5   R n/kappa^2 = -1.84697941409   (rel. dev. from -Y: -1.61e-02)
+    kappa=0.03    alpha=2     R n/kappa^2 = -1.80249411271   (rel. dev. from -Y: -3.98e-02)
+    kappa=0.03    alpha=5     R n/kappa^2 = -1.63899970967   (rel. dev. from -Y: -1.27e-01)
+zeta=10: Y(zeta)=1.47016584508098
+    kappa=0.0001  alpha=0.5   R n/kappa^2 = -1.47016569806   (rel. dev. from -Y: -1.00e-07)
+    kappa=0.0001  alpha=2     R n/kappa^2 = -1.47016539444   (rel. dev. from -Y: -3.07e-07)
+    kappa=0.0001  alpha=5     R n/kappa^2 = -1.47016408619   (rel. dev. from -Y: -1.20e-06)
+    kappa=0.001   alpha=0.5   R n/kappa^2 = -1.47015114325   (rel. dev. from -Y: -1.00e-05)
+    kappa=0.001   alpha=2     R n/kappa^2 = -1.47012078201   (rel. dev. from -Y: -3.07e-05)
+    kappa=0.001   alpha=5     R n/kappa^2 = -1.46998996848   (rel. dev. from -Y: -1.20e-04)
+    kappa=0.01    alpha=0.5   R n/kappa^2 = -1.46869572207   (rel. dev. from -Y: -1.00e-03)
+    kappa=0.01    alpha=2     R n/kappa^2 = -1.46566561439   (rel. dev. from -Y: -3.06e-03)
+    kappa=0.01    alpha=5     R n/kappa^2 = -1.45269820031   (rel. dev. from -Y: -1.19e-02)
+    kappa=0.03    alpha=0.5   R n/kappa^2 = -1.45693917326   (rel. dev. from -Y: -9.00e-03)
+    kappa=0.03    alpha=2     R n/kappa^2 = -1.43010227155   (rel. dev. from -Y: -2.73e-02)
+    kappa=0.03    alpha=5     R n/kappa^2 = -1.32128348578   (rel. dev. from -Y: -1.01e-01)
+
+====================================================================================================
+C9  Kaniadakis Bose: sign changes and crossover ztilde*(kappa)
+====================================================================================================
+zeta=  0.1 kappa=0.01: #sign changes=1  alpha*=['6.53737790']  ztilde*=['0.001448']  z*=['0.00160']  ztilde*/kappa^2=['14.4828']  leading-order ztilde*=0.00146
+zeta=  0.1 kappa=0.02: #sign changes=1  alpha*=['5.16428075']  ztilde*=['0.005717']  z*=['0.00632']  ztilde*/kappa^2=['14.2929']  leading-order ztilde*=0.00585
+zeta=  0.1 kappa=0.05: #sign changes=1  alpha*=['3.36701980']  ztilde*=['0.034492']  z*=['0.03812']  ztilde*/kappa^2=['13.7969']  leading-order ztilde*=0.03657
+zeta=  0.1 kappa=0.10: #sign changes=1  alpha*=['2.01631694']  ztilde*=['0.133145']  z*=['0.14715']  ztilde*/kappa^2=['13.3145']  leading-order ztilde*=0.14628
+zeta=  0.1 kappa=0.15: #sign changes=1  alpha*=['1.22170129']  ztilde*=['0.294728']  z*=['0.32573']  ztilde*/kappa^2=['13.0990']  leading-order ztilde*=0.32912
+zeta=  0.1 kappa=0.20: #sign changes=1  alpha*=['0.66124926']  ztilde*=['0.516206']  z*=['0.57050']  ztilde*/kappa^2=['12.9052']  leading-order ztilde*=0.58510
+zeta=  0.1 kappa=0.24: #sign changes=1  alpha*=['0.32824807']  ztilde*=['0.720184']  z*=['0.79593']  ztilde*/kappa^2=['12.5032']  leading-order ztilde*=0.84255
+zeta=    1 kappa=0.01: #sign changes=1  alpha*=['6.90382761']  ztilde*=['0.001004']  z*=['0.00273']  ztilde*/kappa^2=['10.0394']  leading-order ztilde*=0.00101
+zeta=    1 kappa=0.02: #sign changes=1  alpha*=['5.53175412']  ztilde*=['0.003959']  z*=['0.01076']  ztilde*/kappa^2=['9.8976']  leading-order ztilde*=0.00406
+zeta=    1 kappa=0.05: #sign changes=1  alpha*=['3.73734974']  ztilde*=['0.023817']  z*=['0.06474']  ztilde*/kappa^2=['9.5269']  leading-order ztilde*=0.02537
+zeta=    1 kappa=0.10: #sign changes=1  alpha*=['2.38651489']  ztilde*=['0.091950']  z*=['0.24994']  ztilde*/kappa^2=['9.1950']  leading-order ztilde*=0.10146
+zeta=    1 kappa=0.15: #sign changes=1  alpha*=['1.58049256']  ztilde*=['0.205874']  z*=['0.55962']  ztilde*/kappa^2=['9.1499']  leading-order ztilde*=0.22829
+zeta=    1 kappa=0.20: #sign changes=1  alpha*=['0.98799404']  ztilde*=['0.372323']  z*=['1.01208']  ztilde*/kappa^2=['9.3081']  leading-order ztilde*=0.40585
+zeta=    1 kappa=0.24: #sign changes=1  alpha*=['0.60024154']  ztilde*=['0.548679']  z*=['1.49146']  ztilde*/kappa^2=['9.5257']  leading-order ztilde*=0.58443
+zeta=   10 kappa=0.01: #sign changes=1  alpha*=['7.32893407']  ztilde*=['0.000656']  z*=['14.45537']  ztilde*/kappa^2=['6.5627']  leading-order ztilde*=0.00066
+zeta=   10 kappa=0.02: #sign changes=1  alpha*=['5.96068752']  ztilde*=['0.002578']  z*=['56.78729']  ztilde*/kappa^2=['6.4453']  leading-order ztilde*=0.00266
+zeta=   10 kappa=0.05: #sign changes=1  alpha*=['4.18196096']  ztilde*=['0.015269']  z*=['336.31191']  ztilde*/kappa^2=['6.1074']  leading-order ztilde*=0.01662
+zeta=   10 kappa=0.10: #sign changes=1  alpha*=['2.85969123']  ztilde*=['0.057286']  z*=['1261.81794']  ztilde*/kappa^2=['5.7286']  leading-order ztilde*=0.06646
+zeta=   10 kappa=0.15: #sign changes=1  alpha*=['2.07212009']  ztilde*=['0.125919']  z*=['2773.54042']  ztilde*/kappa^2=['5.5964']  leading-order ztilde*=0.14954
+zeta=   10 kappa=0.20: #sign changes=1  alpha*=['1.46394739']  ztilde*=['0.231321']  z*=['5095.19191']  ztilde*/kappa^2=['5.7830']  leading-order ztilde*=0.26585
+zeta=   10 kappa=0.24: #sign changes=1  alpha*=['0.98362521']  ztilde*=['0.373953']  z*=['8236.86252']  ztilde*/kappa^2=['6.4922']  leading-order ztilde*=0.38282
+
+====================================================================================================
+C9b  Kaniadakis Fermi sign
+====================================================================================================
+Kaniadakis Fermi negative on all grids: True
+
+====================================================================================================
+N5a Tsallis quantum at fixed q:  R gamma'^4 / beta^3 -> -a Cq(q)
+====================================================================================================
+q=1.10 zeta=0 a=+1: R gamma'^4 at alpha=[1, 3, 10, 30, 100, 300, 1000, 3000, 10000]:
+      -123.65356223 -142.01989417 -147.37808386 -147.45503309 -147.45510836 -147.45510836 -147.45510836 -147.45510836 -147.45510836   -> -a Cq = -147.45510836
+q=1.10 zeta=0 a=-1: R gamma'^4 at alpha=[1, 3, 10, 30, 100, 300, 1000, 3000, 10000]:
+      190.64175160 153.50714836 147.53224425 147.45518363 147.45510836 147.45510836 147.45510836 147.45510836 147.45510836   -> -a Cq = 147.45510836
+q=1.10 zeta=1 a=+1: R gamma'^4 at alpha=[1, 3, 10, 30, 100, 300, 1000, 3000, 10000]:
+      -77.85113526 -100.30525637 -123.96226142 -140.01837686 -146.34397203 -147.31167208 -147.44155703 -147.45358314 -147.45497049   -> -a Cq = -147.45510836
+q=1.10 zeta=1 a=-1: R gamma'^4 at alpha=[1, 3, 10, 30, 100, 300, 1000, 3000, 10000]:
+      129.28681035 109.90483544 124.11601838 140.01854152 146.34397203 147.31167208 147.44155703 147.45358314 147.45497049   -> -a Cq = 147.45510836
+q=1.20 zeta=0 a=+1: R gamma'^4 at alpha=[1, 3, 10, 30, 100, 300, 1000, 3000, 10000]:
+      -0.61619261 -0.72006181 -0.75997621 -0.76187679 -0.76190465 -0.76190476 -0.76190476 -0.76190476 -0.76190476   -> -a Cq = -0.76190476
+q=1.20 zeta=0 a=-1: R gamma'^4 at alpha=[1, 3, 10, 30, 100, 300, 1000, 3000, 10000]:
+      1.03656215 0.81022753 0.76384531 0.76193273 0.76190488 0.76190476 0.76190476 0.76190476 0.76190476   -> -a Cq = 0.76190476
+q=1.20 zeta=1 a=+1: R gamma'^4 at alpha=[1, 3, 10, 30, 100, 300, 1000, 3000, 10000]:
+      -0.37945932 -0.54569797 -0.69829951 -0.74940628 -0.76048994 -0.76173746 -0.76188940 -0.76190305 -0.76190461   -> -a Cq = -0.76190476
+q=1.20 zeta=1 a=-1: R gamma'^4 at alpha=[1, 3, 10, 30, 100, 300, 1000, 3000, 10000]:
+      0.74922222 0.63460614 0.70262229 0.74946787 0.76049018 0.76173746 0.76188940 0.76190305 0.76190461   -> -a Cq = 0.76190476
+
+====================================================================================================
+N5b Kaniadakis at fixed kappa:  R gamma^{6-1/kappa} / beta^3 -> -Kk(kappa)
+====================================================================================================
+kappa=0.2400 zeta=0 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.907625 0.988656 0.998967 0.999885 0.999990 0.999999 1.000000 1.000000 ;  R = -0.00018851 -2.74e-5 -3.0454e-6 -4.0675e-7 -4.4747e-8 -5.9709e-9 -6.568e-10 -8.7641e-11
+kappa=0.2400 zeta=0 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.895080 0.987284 0.998863 0.999875 0.999989 0.999999 1.000000 1.000000 ;  R = -0.00018591 -2.7362e-5 -3.0451e-6 -4.0674e-7 -4.4747e-8 -5.9709e-9 -6.568e-10 -8.7641e-11
+kappa=0.2400 zeta=0 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.920151 0.990029 0.999070 0.999895 0.999990 0.999999 1.000000 1.000000 ;  R = -0.00019111 -2.7438e-5 -3.0457e-6 -4.0675e-7 -4.4747e-8 -5.9709e-9 -6.568e-10 -8.7641e-11
+kappa=0.2400 zeta=1 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.846190 0.981401 0.998349 0.999818 0.999984 0.999998 1.000000 1.000000 ;  R = -0.0002132 -2.8943e-5 -3.1002e-6 -4.0922e-7 -4.4829e-8 -5.9746e-9 -6.5692e-10 -8.7647e-11
+kappa=0.2400 zeta=1 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.832540 0.979947 0.998244 0.999809 0.999983 0.999998 1.000000 1.000000 ;  R = -0.00020976 -2.89e-5 -3.0998e-6 -4.0921e-7 -4.4828e-8 -5.9746e-9 -6.5692e-10 -8.7647e-11
+kappa=0.2400 zeta=1 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.859812 0.982854 0.998455 0.999828 0.999984 0.999998 1.000000 1.000000 ;  R = -0.00021663 -2.8986e-5 -3.1005e-6 -4.0922e-7 -4.4829e-8 -5.9746e-9 -6.5692e-10 -8.7647e-11
+kappa=0.2000 zeta=0 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.882315 0.984893 0.998616 0.999846 0.999986 0.999998 1.000000 1.000000 ;  R = -0.0072279 -0.0026894 -0.00081807 -0.00027302 -8.1919e-5 -2.7307e-5 -8.192e-6 -2.7307e-6
+kappa=0.2000 zeta=0 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.875261 0.984560 0.998606 0.999846 0.999986 0.999998 1.000000 1.000000 ;  R = -0.0071701 -0.0026885 -0.00081806 -0.00027302 -8.1919e-5 -2.7307e-5 -8.192e-6 -2.7307e-6
+kappa=0.2000 zeta=0 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.889362 0.985226 0.998625 0.999846 0.999986 0.999998 1.000000 1.000000 ;  R = -0.0072857 -0.0026903 -0.00081807 -0.00027302 -8.1919e-5 -2.7307e-5 -8.192e-6 -2.7307e-6
+kappa=0.2000 zeta=1 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.813833 0.975597 0.997800 0.999757 0.999978 0.999998 1.000000 1.000000 ;  R = -0.0074077 -0.0027559 -0.00082565 -0.00027391 -8.2e-5 -2.7316e-5 -8.1928e-6 -2.7308e-6
+kappa=0.2000 zeta=1 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.805899 0.975237 0.997791 0.999757 0.999978 0.999998 1.000000 1.000000 ;  R = -0.0073355 -0.0027549 -0.00082565 -0.00027391 -8.2e-5 -2.7316e-5 -8.1928e-6 -2.7308e-6
+kappa=0.2000 zeta=1 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.821758 0.975957 0.997810 0.999758 0.999978 0.999998 1.000000 1.000000 ;  R = -0.0074798 -0.0027569 -0.00082566 -0.00027391 -8.2e-5 -2.7316e-5 -8.1928e-6 -2.7308e-6
+kappa=0.1667 zeta=0 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.867941 0.981969 0.998333 0.999814 0.999983 0.999998 1.000000 1.000000 ;  R = -0.06123 -0.069275 -0.070429 -0.070534 -0.070546 -0.070547 -0.070547 -0.070547
+kappa=0.1667 zeta=0 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.863641 0.981894 0.998332 0.999814 0.999983 0.999998 1.000000 1.000000 ;  R = -0.060927 -0.069269 -0.070429 -0.070534 -0.070546 -0.070547 -0.070547 -0.070547
+kappa=0.1667 zeta=0 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.872240 0.982045 0.998334 0.999814 0.999983 0.999998 1.000000 1.000000 ;  R = -0.061534 -0.06928 -0.070429 -0.070534 -0.070546 -0.070547 -0.070547 -0.070547
+kappa=0.1667 zeta=1 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.799424 0.970768 0.997302 0.999702 0.999973 0.999997 1.000000 1.000000 ;  R = -0.056397 -0.068485 -0.070356 -0.070526 -0.070545 -0.070547 -0.070547 -0.070547
+kappa=0.1667 zeta=1 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.794382 0.970685 0.997301 0.999702 0.999973 0.999997 1.000000 1.000000 ;  R = -0.056041 -0.068479 -0.070356 -0.070526 -0.070545 -0.070547 -0.070547 -0.070547
+kappa=0.1667 zeta=1 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      0.804463 0.970852 0.997303 0.999702 0.999973 0.999997 1.000000 1.000000 ;  R = -0.056752 -0.06849 -0.070356 -0.070526 -0.070545 -0.070547 -0.070547 -0.070547
+kappa=0.1000 zeta=0 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      1.222110 1.019362 1.001647 1.000182 1.000016 1.000002 1.000000 1.000000 ;  R = -2.4082 -162.7 -19738.0 -1.5964e+6 -1.9706e+8 -1.5961e+10 -1.9705e+12 -1.5961e+14
+kappa=0.1000 zeta=0 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      1.219568 1.019361 1.001647 1.000182 1.000016 1.000002 1.000000 1.000000 ;  R = -2.4032 -162.7 -19738.0 -1.5964e+6 -1.9706e+8 -1.5961e+10 -1.9705e+12 -1.5961e+14
+kappa=0.1000 zeta=0 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      1.224651 1.019363 1.001647 1.000182 1.000016 1.000002 1.000000 1.000000 ;  R = -2.4132 -162.71 -19738.0 -1.5964e+6 -1.9706e+8 -1.5961e+10 -1.9705e+12 -1.5961e+14
+kappa=0.1000 zeta=1 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      1.260479 1.008216 1.000069 0.999995 0.999999 1.000000 1.000000 1.000000 ;  R = -1.6296 -140.52 -18930.0 -1.575e+6 -1.9627e+8 -1.594e+10 -1.9698e+12 -1.5959e+14
+kappa=0.1000 zeta=1 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      1.256782 1.008215 1.000069 0.999995 0.999999 1.000000 1.000000 1.000000 ;  R = -1.6249 -140.52 -18930.0 -1.575e+6 -1.9627e+8 -1.594e+10 -1.9698e+12 -1.5959e+14
+kappa=0.1000 zeta=1 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      1.264176 1.008217 1.000069 0.999995 0.999999 1.000000 1.000000 1.000000 ;  R = -1.6344 -140.52 -18930.0 -1.575e+6 -1.9627e+8 -1.594e+10 -1.9698e+12 -1.5959e+14
+kappa=0.0500 zeta=0 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      177.869148 2.549274 1.097198 1.010458 1.000938 1.000104 1.000009 1.000001 ;  R = -13.394 -9.182e+5 -8.2625e+12 -3.6395e+19 -7.5376e+26 -3.6022e+33 -7.5306e+40 -3.6018e+47
+kappa=0.0500 zeta=0 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      177.489941 2.549274 1.097198 1.010458 1.000938 1.000104 1.000009 1.000001 ;  R = -13.366 -9.182e+5 -8.2625e+12 -3.6395e+19 -7.5376e+26 -3.6022e+33 -7.5306e+40 -3.6018e+47
+kappa=0.0500 zeta=0 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      178.248331 2.549274 1.097198 1.010458 1.000938 1.000104 1.000009 1.000001 ;  R = -13.423 -9.182e+5 -8.2625e+12 -3.6395e+19 -7.5376e+26 -3.6022e+33 -7.5306e+40 -3.6018e+47
+kappa=0.0500 zeta=1 a=+0: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      390.177103 2.727641 1.097871 1.010296 1.000917 1.000102 1.000009 1.000001 ;  R = -6.7217 -6.112e+5 -7.1824e+12 -3.4727e+19 -7.4326e+26 -3.5854e+33 -7.52e+40 -3.6001e+47
+kappa=0.0500 zeta=1 a=-1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      388.910639 2.727641 1.097871 1.010296 1.000917 1.000102 1.000009 1.000001 ;  R = -6.6999 -6.112e+5 -7.1824e+12 -3.4727e+19 -7.4326e+26 -3.5854e+33 -7.52e+40 -3.6001e+47
+kappa=0.0500 zeta=1 a=+1: R/(-Kk gamma^{1/k-6}) at alpha=[10, 30, 100, 300, 1000, 3000, 10000, 30000]:
+      391.443481 2.727641 1.097871 1.010296 1.000917 1.000102 1.000009 1.000001 ;  R = -6.7436 -6.112e+5 -7.1824e+12 -3.4727e+19 -7.4326e+26 -3.5854e+33 -7.52e+40 -3.6001e+47
+
+====================================================================================================
+C7/C8  sign checks on dense grids (fast path) with mp spot checks
+====================================================================================================
+Tsallis(q=1.01)-FD           zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.790e-02, -3.780e-06]  fast/mp max rel 8.2e-15
+Tsallis(q=1.01)-FD           zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-3.364e-02, -3.763e-06]  fast/mp max rel 7.2e-15
+Tsallis(q=1.01)-FD           zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.019e-03, -2.722e-06]  fast/mp max rel 8.3e-15
+Tsallis(q=1.01)-BE           zeta=  0.1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [3.780e-06, 1.017e+05]  fast/mp max rel 7.1e-15
+Tsallis(q=1.01)-BE           zeta=    1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [3.763e-06, 5.036e+03]  fast/mp max rel 7.2e-15
+Tsallis(q=1.01)-BE           zeta=   10 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [2.722e-06, 2.593e+02]  fast/mp max rel 8.3e-15
+Tsallis(q=1.05)-FD           zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-2.316e-02, -4.811e-09]  fast/mp max rel 6.2e-15
+Tsallis(q=1.05)-FD           zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.802e-02, -4.826e-09]  fast/mp max rel 7.0e-15
+Tsallis(q=1.05)-FD           zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-2.711e-03, -4.839e-09]  fast/mp max rel 8.9e-15
+Tsallis(q=1.05)-BE           zeta=  0.1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [4.811e-09, 8.367e+04]  fast/mp max rel 8.9e-15
+Tsallis(q=1.05)-BE           zeta=    1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [4.826e-09, 4.115e+03]  fast/mp max rel 6.2e-15
+Tsallis(q=1.05)-BE           zeta=   10 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [4.839e-09, 2.275e+02]  fast/mp max rel 7.3e-15
+Tsallis(q=1.1)-FD            zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.019e-02, -1.418e-10]  fast/mp max rel 8.0e-15
+Tsallis(q=1.1)-FD            zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-8.923e-03, -1.423e-10]  fast/mp max rel 8.3e-15
+Tsallis(q=1.1)-FD            zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.781e-03, -1.461e-10]  fast/mp max rel 4.9e-15
+Tsallis(q=1.1)-BE            zeta=  0.1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [1.418e-10, 6.168e+04]  fast/mp max rel 2.9e-15
+Tsallis(q=1.1)-BE            zeta=    1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [1.423e-10, 3.001e+03]  fast/mp max rel 5.1e-15
+Tsallis(q=1.1)-BE            zeta=   10 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [1.461e-10, 1.870e+02]  fast/mp max rel 4.9e-15
+Tsallis(q=1.15)-FD           zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-3.631e-03, -1.027e-11]  fast/mp max rel 6.4e-15
+Tsallis(q=1.15)-FD           zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-3.657e-03, -1.030e-11]  fast/mp max rel 4.9e-15
+Tsallis(q=1.15)-FD           zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.056e-03, -1.064e-11]  fast/mp max rel 4.0e-15
+Tsallis(q=1.15)-BE           zeta=  0.1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [1.027e-11, 4.034e+04]  fast/mp max rel 6.9e-15
+Tsallis(q=1.15)-BE           zeta=    1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [1.030e-11, 1.936e+03]  fast/mp max rel 6.2e-15
+Tsallis(q=1.15)-BE           zeta=   10 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [1.064e-11, 1.445e+02]  fast/mp max rel 3.3e-15
+Tsallis(q=1.2)-FD            zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-8.169e-04, -7.472e-13]  fast/mp max rel 5.3e-15
+Tsallis(q=1.2)-FD            zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-9.604e-04, -7.498e-13]  fast/mp max rel 4.4e-15
+Tsallis(q=1.2)-FD            zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.828e-04, -7.758e-13]  fast/mp max rel 4.9e-15
+Tsallis(q=1.2)-BE            zeta=  0.1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [7.472e-13, 1.975e+04]  fast/mp max rel 4.2e-15
+Tsallis(q=1.2)-BE            zeta=    1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [7.498e-13, 9.312e+02]  fast/mp max rel 3.1e-15
+Tsallis(q=1.2)-BE            zeta=   10 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [7.758e-13, 9.522e+01]  fast/mp max rel 2.9e-15
+Tsallis(q=1.24)-FD           zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-6.920e-05, -3.100e-14]  fast/mp max rel 2.2e-08
+Tsallis(q=1.24)-FD           zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-9.320e-05, -3.111e-14]  fast/mp max rel 2.2e-08
+Tsallis(q=1.24)-FD           zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-9.406e-05, -3.221e-14]  fast/mp max rel 2.1e-08
+Tsallis(q=1.24)-BE           zeta=  0.1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [3.100e-14, 3.874e+03]  fast/mp max rel 2.2e-08
+Tsallis(q=1.24)-BE           zeta=    1 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [3.111e-14, 1.797e+02]  fast/mp max rel 2.2e-08
+Tsallis(q=1.24)-BE           zeta=   10 expected sign +1: fast-grid ok=True  mp-spots ok=True  range [3.221e-14, 3.107e+01]  fast/mp max rel 2.1e-08
+Kaniadakis(kappa=0.01)-cl    zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.358e+120, -9.040e-05]  fast/mp max rel 6.6e-11
+Kaniadakis(kappa=0.01)-cl    zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.249e+120, -4.245e-05]  fast/mp max rel 9.4e-11
+Kaniadakis(kappa=0.01)-cl    zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-6.053e+119, -3.101e-06]  fast/mp max rel 6.4e-11
+Kaniadakis(kappa=0.01)-FD    zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.358e+120, -4.446e-02]  fast/mp max rel 6.6e-11
+Kaniadakis(kappa=0.01)-FD    zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.249e+120, -3.048e-02]  fast/mp max rel 9.4e-11
+Kaniadakis(kappa=0.01)-FD    zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-6.053e+119, -3.828e-03]  fast/mp max rel 6.4e-11
+Kaniadakis(kappa=0.05)-cl    zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-7.527e+26, -2.158e-03]  fast/mp max rel 1.9e-12
+Kaniadakis(kappa=0.05)-cl    zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-7.433e+26, -1.030e-03]  fast/mp max rel 3.4e-12
+Kaniadakis(kappa=0.05)-cl    zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-6.539e+26, -7.644e-05]  fast/mp max rel 3.9e-12
+Kaniadakis(kappa=0.05)-FD    zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-7.527e+26, -4.362e-02]  fast/mp max rel 1.8e-12
+Kaniadakis(kappa=0.05)-FD    zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-7.433e+26, -2.998e-02]  fast/mp max rel 3.4e-12
+Kaniadakis(kappa=0.05)-FD    zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-6.539e+26, -3.809e-03]  fast/mp max rel 3.8e-12
+Kaniadakis(kappa=0.1)-cl     zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.970e+08, -7.352e-03]  fast/mp max rel 2.6e-12
+Kaniadakis(kappa=0.1)-cl     zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.963e+08, -3.716e-03]  fast/mp max rel 4.2e-13
+Kaniadakis(kappa=0.1)-cl     zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.890e+08, -2.918e-04]  fast/mp max rel 6.6e-13
+Kaniadakis(kappa=0.1)-FD     zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.970e+08, -4.015e-02]  fast/mp max rel 1.3e-12
+Kaniadakis(kappa=0.1)-FD     zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.963e+08, -2.805e-02]  fast/mp max rel 1.6e-12
+Kaniadakis(kappa=0.1)-FD     zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.890e+08, -3.730e-03]  fast/mp max rel 9.6e-13
+Kaniadakis(kappa=0.15)-cl    zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.040e+00, -1.175e-02]  fast/mp max rel 8.9e-14
+Kaniadakis(kappa=0.15)-cl    zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.037e+00, -6.671e-03]  fast/mp max rel 1.6e-13
+Kaniadakis(kappa=0.15)-cl    zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.008e+00, -6.018e-04]  fast/mp max rel 1.5e-13
+Kaniadakis(kappa=0.15)-FD    zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.040e+00, -3.182e-02]  fast/mp max rel 1.6e-13
+Kaniadakis(kappa=0.15)-FD    zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.037e+00, -2.348e-02]  fast/mp max rel 3.0e-13
+Kaniadakis(kappa=0.15)-FD    zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.008e+00, -3.521e-03]  fast/mp max rel 4.6e-14
+Kaniadakis(kappa=0.2)-cl     zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.277e-02, -8.193e-05]  fast/mp max rel 7.6e-14
+Kaniadakis(kappa=0.2)-cl     zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.134e-02, -8.200e-05]  fast/mp max rel 3.4e-14
+Kaniadakis(kappa=0.2)-cl     zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-3.988e-03, -8.268e-05]  fast/mp max rel 2.4e-14
+Kaniadakis(kappa=0.2)-FD     zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.692e-02, -8.193e-05]  fast/mp max rel 3.9e-14
+Kaniadakis(kappa=0.2)-FD     zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.463e-02, -8.200e-05]  fast/mp max rel 9.4e-14
+Kaniadakis(kappa=0.2)-FD     zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-4.108e-03, -8.268e-05]  fast/mp max rel 5.9e-14
+Kaniadakis(kappa=0.24)-cl    zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-2.162e-03, -4.475e-08]  fast/mp max rel 3.0e-07
+Kaniadakis(kappa=0.24)-cl    zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-2.089e-03, -4.483e-08]  fast/mp max rel 2.4e-07
+Kaniadakis(kappa=0.24)-cl    zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-8.426e-04, -4.555e-08]  fast/mp max rel 1.3e-07
+Kaniadakis(kappa=0.24)-FD    zeta=  0.1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-2.824e-03, -4.475e-08]  fast/mp max rel 2.9e-07
+Kaniadakis(kappa=0.24)-FD    zeta=    1 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-2.983e-03, -4.483e-08]  fast/mp max rel 2.3e-07
+Kaniadakis(kappa=0.24)-FD    zeta=   10 expected sign -1: fast-grid ok=True  mp-spots ok=True  range [-1.578e-03, -4.555e-08]  fast/mp max rel 1.3e-07
+
+total 133 s

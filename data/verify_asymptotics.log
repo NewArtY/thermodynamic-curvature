@@ -1,0 +1,9 @@
+NR:  Xi(zeta)  = 32735*epsilon**3/2048 - 1605*epsilon**2/512 + 25*epsilon/32 + 5/8
+NR:  c1(zeta)  = 5/(16 sqrt(pi)) zeta^{-3/2} * [ 308789*epsilon**3/8192 - 1503*epsilon**2/512 - 25*epsilon/16 + 1 ]
+NR:  Y(zeta)   = 3475*epsilon**3/64 - 105*epsilon**2/8 + 25*epsilon/8 + 5/4
+    check zeta=200: c1 exact 6.18434519574069e-5  series 6.18434602666348e-5 ;  Y exact 1.26530353350734 series 1.26530366210937
+UR:  Xi(zeta) = x**4*(-35*L/12 - 13*log(2)/3 - 35*EulerGamma/12 + 7/72) - x**2/2 + 1
+UR:  c1(zeta) = x**4*(-91*L/384 - log(2)/3 - 91*EulerGamma/384 + 199/4608) - x**2/16 + 1/16
+UR:  Y(zeta)  = x**4*(-9*L/8 - 41/48 - 9*EulerGamma/8) - x**2/3 + 2
+    check zeta=1/100: c1 exact 0.06249375931166 series 0.0624937593093945 ; Y exact 1.99996671124748 series 1.99996671123739
+    check zeta=1/20: c1 exact 0.0623472074695123 series 0.0623471846012214 ; Y exact 1.99918330952282 series 1.99918320701102

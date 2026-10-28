@@ -1,0 +1,90 @@
+1) BG curvature (old ricci_scalar vs new), zeta = 1
+   a=+1 ztilde=0.001  old=-4.1870624045e-02 new=-4.1870624045e-02 rel=2.6e-12
+   a=+1 ztilde=0.01   old=-4.1693600899e-02 new=-4.1693600899e-02 rel=9.2e-13
+   a=+1 ztilde=0.1    old=-4.0049646453e-02 new=-4.0049646453e-02 rel=7.0e-14
+   a=+1 ztilde=0.5    old=-3.4698324320e-02 new=-3.4698324320e-02 rel=3.2e-15
+   a=+1 ztilde=0.9    old=-3.1196911657e-02 new=-3.1196911657e-02 rel=1.1e-15
+   a=+1 ztilde=0.999  old=-3.0502223069e-02 new=-3.0502223069e-02 rel=5.3e-15
+   a=-1 ztilde=0.001  old=4.1910301315e-02 new=4.1910301314e-02 rel=3.6e-12
+   a=-1 ztilde=0.01   old=4.2090400041e-02 new=4.2090400041e-02 rel=7.1e-13
+   a=-1 ztilde=0.1    old=4.4044301669e-02 new=4.4044301669e-02 rel=2.7e-14
+   a=-1 ztilde=0.5    old=5.8754838854e-02 new=5.8754838854e-02 rel=7.8e-15
+   a=-1 ztilde=0.9    old=1.3686521883e-01 new=1.3686521883e-01 rel=5.8e-15
+   a=-1 ztilde=0.999  old=1.6079145929e+00 new=1.6079145929e+00 rel=2.4e-12
+2) c1 (old c1_of_zeta vs new closed form)
+   zeta=0.1  old=0.0619146485 new=0.0619146485 rel=3.7e-14
+   zeta=0.5  old=0.0534775275 new=0.0534775275 rel=9.2e-15
+   zeta=1    old=0.0418904471 new=0.0418904471 rel=1.5e-14
+   zeta=2    old=0.0269181518 new=0.0269181518 rel=1.5e-12
+   zeta=4    old=0.0140740992 new=0.0140740992 rel=2.0e-13
+   zeta=8    old=0.0062290205 new=0.0062290205 rel=3.2e-12
+3) deformed curvature (old ricci_deformed vs new), zeta = 1
+   q=1.1   a=+1 ztilde=0.001  old=-1.82112065e-03 new=-1.82892202e-03  rel 4.3e-03
+   q=1.1   a=+1 ztilde=0.1    old=-5.78403235e-03 new=-5.79057846e-03  rel 1.1e-03
+   q=1.1   a=+1 ztilde=0.9    old=-8.84125465e-03 new=-8.84567411e-03  rel 5.0e-04
+   q=1.1   a=+0 ztilde=0.001  old=-6.87791397e-16 new= 0.00000000e+00  (new exactly 0)
+   q=1.1   a=+0 ztilde=0.1    old= 1.53785666e-16 new= 0.00000000e+00  (new exactly 0)
+   q=1.1   a=+0 ztilde=0.9    old=-3.38821908e-17 new= 0.00000000e+00  (new exactly 0)
+   q=1.1   a=-1 ztilde=0.001  old= 1.83327609e-03 new= 1.84111624e-03  rel 4.3e-03
+   q=1.1   a=-1 ztilde=0.1    old= 6.77936685e-03 new= 6.78671431e-03  rel 1.1e-03
+   q=1.1   a=-1 ztilde=0.9    old= 5.66468293e-02 new= 5.66665322e-02  rel 3.5e-04
+   q=1.2   a=+1 ztilde=0.001  old=-7.16380657e-05 new=-4.68499454e-05  rel 5.3e-01
+   q=1.2   a=+1 ztilde=0.1    old=-4.10492455e-04 new=-3.17985727e-04  rel 2.9e-01
+   q=1.2   a=+1 ztilde=0.9    old=-1.09859858e-03 new=-9.18926222e-04  rel 2.0e-01
+   q=1.2   a=+0 ztilde=0.001  old= 2.67249463e-17 new= 0.00000000e+00  (new exactly 0)
+   q=1.2   a=+0 ztilde=0.1    old=-1.14738320e-17 new= 0.00000000e+00  (new exactly 0)
+   q=1.2   a=+0 ztilde=0.9    old=-0.00000000e+00 new= 0.00000000e+00  (new exactly 0)
+   q=1.2   a=-1 ztilde=0.001  old= 7.30307493e-05 new= 4.77966239e-05  rel 5.3e-01
+   q=1.2   a=-1 ztilde=0.1    old= 5.18318598e-04 new= 4.04384383e-04  rel 2.8e-01
+   q=1.2   a=-1 ztilde=0.9    old= 1.10654507e-02 new= 9.84323482e-03  rel 1.2e-01
+   q=1.24  a=+1 ztilde=0.001  old=-2.39251280e-05 new=-2.72517375e-06  rel 7.8e+00
+   q=1.24  a=+1 ztilde=0.1    old=-1.38456817e-04 new=-2.35353979e-05  rel 4.9e+00
+   q=1.24  a=+1 ztilde=0.9    old=-4.09411859e-04 new=-8.77643777e-05  rel 3.7e+00
+   q=1.24  a=+0 ztilde=0.001  old=-1.92220323e-18 new= 0.00000000e+00  (new exactly 0)
+   q=1.24  a=+0 ztilde=0.1    old=-4.88269125e-18 new= 0.00000000e+00  (new exactly 0)
+   q=1.24  a=+0 ztilde=0.9    old= 8.94889382e-18 new= 0.00000000e+00  (new exactly 0)
+   q=1.24  a=-1 ztilde=0.001  old= 2.45415762e-05 new= 2.80162178e-06  rel 7.8e+00
+   q=1.24  a=-1 ztilde=0.1    old= 1.78968000e-04 new= 3.10709932e-05  rel 4.8e+00
+   q=1.24  a=-1 ztilde=0.9    old= 4.67836164e-03 new= 1.23262312e-03  rel 2.8e+00
+   k=0.05  a=+1 ztilde=0.001  old=-5.89135651e-01 new=-5.89135653e-01  rel 2.5e-09
+   k=0.05  a=+1 ztilde=0.1    old=-4.46959375e-02 new=-4.46959375e-02  rel 4.2e-11
+   k=0.05  a=+1 ztilde=0.9    old=-3.06927654e-02 new=-3.06927654e-02  rel 5.4e-12
+   k=0.05  a=+0 ztilde=0.001  old=-5.61003797e-01 new=-5.61003799e-01  rel 2.6e-09
+   k=0.05  a=+0 ztilde=0.1    old=-9.30897349e-03 new=-9.30897349e-03  rel 1.3e-10
+   k=0.05  a=+0 ztilde=0.9    old=-1.14154246e-03 new=-1.14154246e-03  rel 2.9e-11
+   k=0.05  a=-1 ztilde=0.001  old=-5.32839482e-01 new=-5.32839483e-01  rel 2.7e-09
+   k=0.05  a=-1 ztilde=0.1    old= 2.97498283e-02 new= 2.97498283e-02  rel 1.8e-11
+   k=0.05  a=-1 ztilde=0.9    old= 1.30986703e-01 new= 1.30986703e-01  rel 1.9e-12
+   k=0.15  a=+1 ztilde=0.001  old=-8.98978726e-02 new=-9.51969845e-02  rel 5.6e-02
+   k=0.15  a=+1 ztilde=0.1    old=-3.57261463e-02 new=-3.62076317e-02  rel 1.3e-02
+   k=0.15  a=+1 ztilde=0.9    old=-2.38954227e-02 new=-2.39796531e-02  rel 3.5e-03
+   k=0.15  a=+0 ztilde=0.001  old=-8.78787271e-02 new=-9.31634190e-02  rel 5.7e-02
+   k=0.15  a=+0 ztilde=0.1    old=-2.46287903e-02 new=-2.50733943e-02  rel 1.8e-02
+   k=0.15  a=+0 ztilde=0.9    old=-7.13046196e-03 new=-7.18497881e-03  rel 7.6e-03
+   k=0.15  a=-1 ztilde=0.001  old=-8.58530410e-02 new=-9.11232699e-02  rel 5.8e-02
+   k=0.15  a=-1 ztilde=0.1    old=-1.19884070e-02 new=-1.23923868e-02  rel 3.3e-02
+   k=0.15  a=-1 ztilde=0.9    old= 8.38460967e-02 new= 8.38875490e-02  rel 4.9e-04
+   k=0.2   a=+1 ztilde=0.001  old=-9.99566308e-03 new=-9.62226895e-03  rel 3.9e-02
+   k=0.2   a=+1 ztilde=0.1    old=-1.38266578e-02 new=-1.38302851e-02  rel 2.6e-04
+   k=0.2   a=+1 ztilde=0.9    old=-1.43646160e-02 new=-1.43767593e-02  rel 8.4e-04
+   k=0.2   a=+0 ztilde=0.001  old=-9.66853002e-03 new=-9.37101217e-03  rel 3.2e-02
+   k=0.2   a=+0 ztilde=0.1    old=-1.06982072e-02 new=-1.10272548e-02  rel 3.0e-02
+   k=0.2   a=+0 ztilde=0.9    old=-6.84144668e-03 new=-7.22694616e-03  rel 5.3e-02
+   k=0.2   a=-1 ztilde=0.001  old=-9.33963993e-03 new=-9.11836257e-03  rel 2.4e-02
+   k=0.2   a=-1 ztilde=0.1    old=-7.03736103e-03 new=-7.73628674e-03  rel 9.0e-02
+   k=0.2   a=-1 ztilde=0.9    old= 4.53375676e-02 new= 4.35354666e-02  rel 4.1e-02
+   k=0.24  a=+1 ztilde=0.001  old=-1.74730339e-03 new=-4.03550872e-04  rel 3.3e+00
+   k=0.24  a=+1 ztilde=0.1    old=-4.56134742e-03 new=-1.52586082e-03  rel 2.0e+00
+   k=0.24  a=+1 ztilde=0.9    old=-6.85405812e-03 new=-2.92017915e-03  rel 1.3e+00
+   k=0.24  a=+0 ztilde=0.001  old=-1.66184755e-03 new=-3.90295190e-04  rel 3.3e+00
+   k=0.24  a=+0 ztilde=0.1    old=-3.64110169e-03 new=-1.29791086e-03  rel 1.8e+00
+   k=0.24  a=+0 ztilde=0.9    old=-4.09308689e-03 new=-2.06637259e-03  rel 9.8e-01
+   k=0.24  a=-1 ztilde=0.001  old=-1.57574949e-03 new=-3.76930969e-04  rel 3.2e+00
+   k=0.24  a=-1 ztilde=0.1    old=-2.54408928e-03 new=-1.02127596e-03  rel 1.5e+00
+   k=0.24  a=-1 ztilde=0.9    old= 2.00589586e-02 new= 7.75611610e-03  rel 1.6e+00
+4) old crossover z*(kappa) (old build_deformed_curves, zeta=1) vs new mp roots
+   kappa=0.05 old z*=0.023820079526678375 new ztilde*=['0.023817']
+   kappa=0.10 old z*=0.09195162533955904 new ztilde*=['0.091950']
+   kappa=0.15 old z*=0.2035727200446308 new ztilde*=['0.205874']
+   kappa=0.20 old z*=0.33783500779969067 new ztilde*=['0.372323']
+   (9s)

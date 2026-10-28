@@ -1,0 +1,14 @@
+{
+ "A1_det": true,
+ "A1_detg": true,
+ "A1_massless": true,
+ "A2_general": "(s + 1)*(h0*h1*h3 - 2*h0*h2**2 + h1**2*h2)/(2*c*(h0*h2*s + h0*h2 - h1**2*s)**2)",
+ "A2_even": "-1/(c*h0*(s + 1))",
+ "A3_FD_massless": "-45*(15*x**6 - 3*pi**2*x**4 + 21*pi**4*x**2 + 7*pi**6)/(pi**2*(15*x**4 + 6*pi**2*x**2 + 7*pi**4)**2)",
+ "A3_FD_massless_mu0": "-45/(7*pi**4)",
+ "A4_R0": "-a1*(a0*a3 - a1*a2)/(4*a0**2*a2**2)",
+ "A4_Delta": "(a0**2*a1*a2*b3 - 2*a0**2*a1*a3*b2 + 4*a0**2*a2*a3*b1 + a0*a1**2*a2*b2 - 8*a0*a1*a2**2*b1 - 4*a0*a1*a2*a3*b0 + 8*a1**2*a2**2*b0)/(8*a0**3*a2**3)",
+ "A4_NR_RMJ_times_m72_em": "3*sqrt(2)*(-33615*epsilon**3 + 10488*epsilon**2 + 1408*epsilon - 1024)/(4096*sqrt(pi))",
+ "A4_NR_Delta_times_m32": "3*epsilon*(2439*epsilon**2 + 1312*epsilon - 512)/(4096*sqrt(pi))",
+ "A5_mu0_susceptibility_form": true
+}

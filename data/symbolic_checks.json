@@ -1,0 +1,27 @@
+{
+ "S1_affine_identity": true,
+ "S2": {
+  "bare_residual": "0",
+  "escort_residual": "0",
+  "n_bare": "(y*(q - 1) + 1)**(-1/(q - 1))",
+  "n_escort": "(y*(q - 1) + 1)**(-q/(q - 1))"
+ },
+ "S3": {
+  "R_separable": "0",
+  "homotheties": "[{bb1: 0, bb2: 0, cc: 0, l0: 0, l1: 0, l2: 0, lam: 0}]",
+  "R_two_level": "0"
+ },
+ "S4": {
+  "D3": "0",
+  "R0_minus_claim": "0",
+  "virial_form_residual": "0"
+ },
+ "S5": {
+  "D0": "0",
+  "residual": "0"
+ },
+ "S6": {
+  "R_pure_power": "0",
+  "K_e1_e2": "-2*(e1 - e2)**2*(e1 - e2 - 1)/(e1*(e1 - 4)**2)"
+ }
+}
