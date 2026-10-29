@@ -1,0 +1,28 @@
+q=1.1 a=+1 zeta=0 gamma=100     bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.1 a=+1 zeta=0 gamma=1000    bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.1 a=+1 zeta=0 gamma=10000   bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.1 a=+1 zeta=1 gamma=100     bare Rhat*gbar^4/(-aC)=0.9925962940  escort Rhat*gbar^3/(-aC_e)=0.9920201032
+q=1.1 a=+1 zeta=1 gamma=1000    bare Rhat*gbar^4/(-aC)=0.9999082803  escort Rhat*gbar^3/(-aC_e)=0.9999004670
+q=1.1 a=+1 zeta=1 gamma=10000   bare Rhat*gbar^4/(-aC)=0.9999990652  escort Rhat*gbar^3/(-aC_e)=0.9999989854
+q=1.1 a=-1 zeta=0 gamma=100     bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.1 a=-1 zeta=0 gamma=1000    bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.1 a=-1 zeta=0 gamma=10000   bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.1 a=-1 zeta=1 gamma=100     bare Rhat*gbar^4/(-aC)=0.9925962940  escort Rhat*gbar^3/(-aC_e)=0.9920201033
+q=1.1 a=-1 zeta=1 gamma=1000    bare Rhat*gbar^4/(-aC)=0.9999082803  escort Rhat*gbar^3/(-aC_e)=0.9999004670
+q=1.1 a=-1 zeta=1 gamma=10000   bare Rhat*gbar^4/(-aC)=0.9999990652  escort Rhat*gbar^3/(-aC_e)=0.9999989854
+q=1.2 a=+1 zeta=0 gamma=100     bare Rhat*gbar^4/(-aC)=0.9999998489  escort Rhat*gbar^3/(-aC_e)=0.9999998550
+q=1.2 a=+1 zeta=0 gamma=1000    bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.2 a=+1 zeta=0 gamma=10000   bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.2 a=+1 zeta=1 gamma=100     bare Rhat*gbar^4/(-aC)=0.9981778981  escort Rhat*gbar^3/(-aC_e)=0.9977702873
+q=1.2 a=+1 zeta=1 gamma=1000    bare Rhat*gbar^4/(-aC)=0.9999798733  escort Rhat*gbar^3/(-aC_e)=0.9999752567
+q=1.2 a=+1 zeta=1 gamma=10000   bare Rhat*gbar^4/(-aC)=0.9999997969  escort Rhat*gbar^3/(-aC_e)=0.9999997503
+q=1.2 a=-1 zeta=0 gamma=100     bare Rhat*gbar^4/(-aC)=1.0000001511  escort Rhat*gbar^3/(-aC_e)=1.0000001450
+q=1.2 a=-1 zeta=0 gamma=1000    bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.2 a=-1 zeta=0 gamma=10000   bare Rhat*gbar^4/(-aC)=1.0000000000  escort Rhat*gbar^3/(-aC_e)=1.0000000000
+q=1.2 a=-1 zeta=1 gamma=100     bare Rhat*gbar^4/(-aC)=0.9981781986  escort Rhat*gbar^3/(-aC_e)=0.9977705751
+q=1.2 a=-1 zeta=1 gamma=1000    bare Rhat*gbar^4/(-aC)=0.9999798733  escort Rhat*gbar^3/(-aC_e)=0.9999752567
+q=1.2 a=-1 zeta=1 gamma=10000   bare Rhat*gbar^4/(-aC)=0.9999997969  escort Rhat*gbar^3/(-aC_e)=0.9999997503
+q=1.01  massless plateau: bare 0.05533  escort 0.05765  (BG 1/16 = 0.0625; ratios 1.13, 1.08)
+q=1.1  massless plateau: bare 0.01475  escort 0.02553  (BG 1/16 = 0.0625; ratios 4.24, 2.45)
+q=1.2  massless plateau: bare 0.00122  escort 0.00762  (BG 1/16 = 0.0625; ratios 51.27, 8.20)
+wrote data/escort_check.json

@@ -42,6 +42,7 @@ pip install -r requirements.txt
 | `verify_bg.py` | Boltzmann–Gibbs gases (Sec. 4). |
 | `verify_deformed.py` | Deformed gases (Sec. 5). |
 | `verify_antiparticles_symbolic.py` | Sec. 4.4. |
+| `verify_escort.py` | Escort-weighted Tsallis gas, Eq. (32) of Sec. 5.1; independent mpmath quadrature (no `thermogeom.py`). |
 | `compare_old_code.py` | Diagnostic comparison with the code of an earlier, longer version of the manuscript (archive [10.5281/zenodo.21383735](https://doi.org/10.5281/zenodo.21383735); set `OLD_CODE` to its unpacked root). It is not required to reproduce the article. |
 
 ### Data
